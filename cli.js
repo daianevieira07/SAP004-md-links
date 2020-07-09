@@ -1,18 +1,15 @@
-#!/usr/bin / env node
+#!/usr/bin/env node
 
-
-/* const mdLinks = require('./mdLinks');
-
+const mdLinks = require('./lib');
 
 mdLinks(process.argv[2])
   .then(array => {
-    if (typeof array === "undefined") {
-      console.log("Link não encontrado");
+    if (typeof array === 'undefined') {
+      console.log('Não há links aqui');
     } else {
-      array.foreach(obj => {
-        console.log(arrayMdLinks)
+      array.forEach(obj => {
+        console.log(`text: ${obj.text} | href: ${obj.href} | file: ${obj.file} `)
       });
-    };
+    }
   })
-
-  .cath(err => console.log(err)); */
+  .catch(error => console.log(error));

@@ -1,11 +1,29 @@
 {
   "name": "md-links",
   "version": "0.1.0",
+  "description": "Library to read links in files .md",
+  "main": "lib.js",
+  "directories": {
+    "test": "test"
+  },
   "author": "Daiane Vieira",
   "private": "false",
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daianevieira07/SAP004-md-links.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bin": {
+    "md-links": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/daianevieira07/SAP004-md-links/issues"
+  },
+  "homepage": "https://github.com/daianevieira07/SAP004-md-links#readme",
   "dependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-proposal-class-properties": "^7.3.4",
@@ -20,12 +38,13 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "express": "^4.17.1",
-    "jest": "^24.1.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
-    "commander": "^5.1.0"
+    "jest": "^24.1.0",
+    "commander": "^5.1.0",
+    "nodemon": "^2.0.4"
   }
 }
