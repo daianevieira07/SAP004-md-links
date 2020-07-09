@@ -1,8 +1,20 @@
-{
-  "env": {
-    "node": true
-  },
-  "parserOptions": {
-    "ecmaVersion": 8
-  }
-}
+ {
+   "parser": "babel-eslint",
+   "env": {
+     "jest": true,
+     "node": true
+   },
+   "parserOptions": {
+     "ecmaVersion": 8
+   }
+ }
+
+ /* {
+   "env": {
+     "node": true
+   },
+   "parserOptions": {
+     "ecmaVersion": 8
+   }
+ }
+  */
