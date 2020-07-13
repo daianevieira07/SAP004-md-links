@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Prefácio](#1-prefácio)
+* [1. Apresentação](#1-apresentacao)
 * [2. Considerações gerais](#2-considerações-gerais)
 * [3. Instalação](#3-instalação)
 * [4. Como utilizar](#4-como-utilizar)
@@ -10,7 +10,7 @@
 
 ***
 
-## 1. Prefácio
+## 1. Apresentação 
 
 [Markdown](https://pt.wikipedia.org/wiki/Markdown) é uma linguagem de marcação muito popular entre os programadores. 
 É usada em muitas plataformas que manipulam texto (GitHub, fórum, blogs e etc), e é muito comum encontrar arquivos
@@ -50,10 +50,14 @@ Ao instalar a biblioteca, é possível utilizá-la pelo arquivo _executável_ qu
 
 A função retorna uma promessa (Promise) com uma array de objetos, em que cada objeto representa um link no arquivo, e contém as seguintes propriedades:
 
-```
-File: Nome do arquivo indicado.
 
-URL: URL do link encontrado.
+> File: Nome do arquivo indicado.
 
-Text: Texto indicativo do link dentro do markdown.
+> URL: URL do link encontrado.
 
+> Text: Texto do link dentro do markdown.
+
+Esse projeto faz parte do currículo do [Bootcamp da Laboratória Brasil](https://www.laboratoria.la/br) 
+
+Desenvolvido por: 
+* [Daiane Vieira](https://github.com/daianevieira07)
